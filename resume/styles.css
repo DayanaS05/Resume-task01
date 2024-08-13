@@ -1,0 +1,309 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container { 
+    border: 200px solid black; 
+    display: flex;
+}
+
+.leftbox {
+    background-color: orange;
+    width: 350px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.rightbox {
+    padding: 50px;
+    width: 60%;
+}
+
+.user-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.name-con {
+    margin-top: 30px;
+}
+
+.name-con > h2 {
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+   }
+   
+   .name-con > h5 { 
+    text-transform: uppercase;
+    font-size: 20px ;
+    font-family: "Noto Sans JP", sans-serif;
+    color: black;
+   }
+
+
+   .contact {
+    /*border: 1px solid white;*/
+    color: white;
+    margin-top: 10px;
+   }
+
+   .left-site-box > h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+   }
+
+   .contact-sup-con {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+   }
+
+   .contact-sup-con > .icon-con {
+    width: 50px;
+    line-height: 10px;
+    text-align: center;
+    font-size: 30px;
+   }
+
+   .contact-sup-con > .text-con  > h5 {
+    margin-bottom: 2px;
+    font-size: 15px;
+   }
+
+   .contact-sup-con > .text-con  >  p {
+    font-size: 13px;
+   }
+
+   .skills-sup-con > h5 {
+    text-transform: uppercase;
+    margin-top: 60px;
+   }
+
+   .per-con {
+    height: 10px;
+    margin-top: 10px;
+    background-color: grey;
+   }
+
+   .per {
+    background-color: black;
+    width: 85%;
+    height: 10px;
+   }
+
+   .follow {
+    color: white;
+   }
+
+   .follow-sup-con > h5 {
+    font-size: 30px;
+   }
+
+   .follow-sup-con > p {
+    margin-bottom: 20px;
+   }
+   
+   .right-site-title {
+    border-bottom: 2px solid black;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+   }
+
+   .right-site-title > .icon-con {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #222222;
+    border-radius: 100%;
+    color: white;
+   }
+
+   .right-site-title > h3 {
+    line-height: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+   }
+
+   .right-site-con {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    line-height: 30px;
+   }
+
+   .right-site-title1 {
+    border-bottom: 2px solid black;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+   }
+
+   .right-site-title1 > .icon-con1 {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #222222;
+    border-radius: 100%;
+    color: white;
+   }
+
+   .right-site-title1 > h3 {
+    line-height: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+   }
+
+   .right-site-con1 {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    line-height: 30px;
+   }
+
+   .right-site-title2 {
+    border-bottom: 2px solid black;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+   }
+
+   .right-site-title2 > .icon-con2 {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #222222;
+    border-radius: 100%;
+    color: white;
+   }
+
+   .right-site-title2 > h3 {
+    line-height: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+   }
+
+   .right-site-con2 {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    line-height: 30px;
+   }
+
+   .right-site-title3 {
+    border-bottom: 2px solid black;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+   }
+
+   .course-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+   }
+
+   .right-site-title3 > h3 {
+    line-height: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+   }
+
+   .right-site-con3 {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    line-height: 30px;
+   }
+
+
+   @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        border: none;
+    }
+
+    .leftbox {
+        width: 50%;
+        padding: 60px;
+    }
+    .rightbox {
+        width: 50%;
+        padding-left: 50px;
+        margin-left: 400px;
+        margin-top: -1110px;
+    }
+
+    .user-image {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
+
+    .name-con > h2 {
+        font-size: 30px;
+    }
+
+    .name-con > h5 {
+        font-size: 16px;
+    }
+
+    .left-site-box > h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .contact-sup-con > .icon-con {
+        width: 30px;
+        font-size: 18px;
+    }
+
+    .contact-sup-con > .text-con > h5 {
+        font-size: 14px;
+    }
+
+    .contact-sup-con > .text-con > p {
+        font-size: 12px;
+    }
+
+    .follow-sup-con > h5 {
+        font-size: 20px;
+    }
+
+    .right-site-title,
+    .right-site-title1,
+    .right-site-title2,
+    .right-site-title3 {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+    }
+
+    .right-site-title > h3,
+    .right-site-title1 > h3,
+    .right-site-title2 > h3,
+    .right-site-title3 > h3 {
+        font-size: 18px;
+    }
+    
+    .download {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+}
